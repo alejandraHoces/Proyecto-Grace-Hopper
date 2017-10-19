@@ -34,7 +34,7 @@ header hr {
   border: 1px solid #a2a9b1;
   background-color: #f8f9fa;
   padding: 1px;
-  font-size:  14px;
+  font-size:  12px;
 }
 /*llamando a selector de clase con un punto*/
 .resumen-table thead th {
