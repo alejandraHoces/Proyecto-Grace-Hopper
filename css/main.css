@@ -1,0 +1,53 @@
+/*colocando al cuerpo de mi proyecto tipo de letra y padding*/
+body {
+  font-family: sans-serif;
+  padding: 10px;
+}
+/*colocando a el titulo un margen inferior 3px*/
+header h1 {
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+header hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*llamando a selector de clase con un punto*/
+.biografia {
+/*colocando un ancho , tamaño de letra y margen entre cada linea*/
+  width: 73%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.3;
+}
+/*llamando a selector de clase con un punto*/
+.resumen {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+}
+/*llamando a selector de clase con un punto*/
+.resumen-table {
+/*colocando un borde,color de fondo y tamaño de letra*/
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: 1px;
+  font-size:  14px;
+}
+/*llamando a selector de clase con un punto*/
+.resumen-table thead th {
+  background-color: #B0C4DE;
+  padding top: 3px;
+  padding-bottom: 3px;
+  font-size: 18px;
+}
+/*Alineando al centro mi texto*/
+.resumen-table tbody tr:first-child {
+  text-align: center;
+}
+
+.resumen-table tbody th {
+  text-align: left;
+}
